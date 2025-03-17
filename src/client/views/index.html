@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Sky Wings Airlines - Plan Your Trip</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- قسم العنوان -->
+    <section>
+        <h1>Sky Wings Airlines</h1>
+        <h2>WELCOME TO SKY WINGS AIRLINES</h2>
+        <p>Plan your next adventure with us!</p>
+        <button>
+            <a href="#bookingSection">Book here</a>
+        </button>
+    </section>
+
+    <!-- قسم الحجز -->
+    <section id="bookingSection">
+        <h2>Book your Trip</h2>
+        <form id="bookingForm" method="POST">
+            <label for="location">Your Destination:</label>
+            <input type="text" id="location" placeholder="Enter a city" required>
+            <br><br>
+
+            <label for="date">Departing Date:</label>
+            <input type="date" id="date" required>
+            <br><br>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <!-- قسم تفاصيل الرحلة -->
+    <section>
+        <h2>Your Trip Information</h2>
+        <div id="tripDetails">
+            <div id="image">[Image will appear here]</div>
+            <div id="weather">[Weather details will be shown here]</div>
+            <div id="tripDate">[Trip countdown will be displayed here]</div>
+        </div>
+    </section>
+
+</body>
+</html>

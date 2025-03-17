@@ -1,0 +1,23 @@
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-content {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .booking {
+        padding: 20px;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    #tripDetails {
+        flex-direction: column;
+    }
+}
